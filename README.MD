@@ -46,3 +46,14 @@ To convert a video into ASCII art and display it in the terminal, use the follow
 
 ```bash
 python3 main.py <video_path>
+```
+
+### Additional arguments 
+
+Use the follwong arguments to change the behaviour of conversion.
+
+`--grayscale` Outputs the ASCII video in grayscale.
+
+`--true_color` Outputs the ASCII video in true RGB color insted of just 256-bit. **Note:** Default Windows 11 supports true color, default MacOS terminal doesn't.
+
+`--retain_aspect` Preserves the original aspect ratio of the video instead of strecthing to fit the entire terminal.
